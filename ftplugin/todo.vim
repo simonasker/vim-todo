@@ -1,7 +1,7 @@
-nnoremap <leader>c :call CheckBox()<cr>
+nnoremap <space> :call CheckBox()<cr>
 
-nnoremap <leader>o o[<space>]<space>
-nnoremap <leader>O O[<space>]<space>
+nnoremap o o[<space>]<space>
+nnoremap O O[<space>]<space>
 
 function! CheckBox()
     let a:line = getline('.')
