@@ -1,9 +1,9 @@
-nnoremap <space> :call CheckBox()<cr>
+nnoremap <space> :call ToggleCheckBox()<cr>
 
 nnoremap o o[<space>]<space>
 nnoremap O O[<space>]<space>
 
-function! CheckBox()
+function! ToggleCheckBox()
     execute "norm! ma"
     let a:line = getline('.')
     let a:check_value = matchstr(a:line, '\[[X ]\]')[1]
