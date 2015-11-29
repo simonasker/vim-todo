@@ -14,7 +14,3 @@ function! CheckBox()
     endif
     execute "norm! `a"
 endfunction
-
-" [X] test
-" [ ] test
-" [?] test
