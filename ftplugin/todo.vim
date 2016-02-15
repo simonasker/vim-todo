@@ -1,7 +1,7 @@
-nnoremap <space> :call ToggleCheckBox()<cr>
+nnoremap <buffer> <space> :call ToggleCheckBox()<cr>
 
-nnoremap o o[<space>]<space>
-nnoremap O O[<space>]<space>
+nnoremap <buffer> o o[<space>]<space>
+nnoremap <buffer> O O[<space>]<space>
 
 function! ToggleCheckBox()
     execute "norm! ma"
