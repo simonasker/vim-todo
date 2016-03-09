@@ -10,6 +10,16 @@ Provides five new key mappings when editing a file with the `.todo` extension.
 - `d` Deletes the todo item on the current line
 - `D` Deletes all finished tasks
 
+## Installation
+####[pathogen](https://github.com/tpope/vim-pathogen)
+```
+cd ~/.vim/bundle && git clone https://github.com/simonasker/vim-todo.git
+```
+Enable the filetype plugin in your `~/.vimrc`:
+```
+filetype plugin on
+```
+
 ## TODO
 - [X] Only apply plugin to certain file types (.todo)
 - [X] Restore the cursor position aftering toggling a check box
